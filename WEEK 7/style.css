@@ -1,0 +1,61 @@
+.button-hover{
+  background-color: red;
+  color: white;
+  width: 105px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity o.7s;
+  margin-right: 10px;
+}
+
+.button-hover:hover{
+  opacity: 0.7;
+}
+
+.button-hover:active{
+  opacity: 0.4;
+}
+
+.join-button{
+  background-color: rgb(27, 187, 219);
+  color: white;
+  width: 105px;
+  height: 36px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover{
+  background-color: rgb(9, 86, 86);
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.7;
+}
+
+.ball-one{
+  width: 80px;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  border-radius: 60%;
+  position: relative;
+  animation: bounce 5s infinite ease-in-out;
+}
+
+@keyframes bounce{
+  0%, 100% { top: 0;}
+  50% { top: 300px; }
+}
+
+#box{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
